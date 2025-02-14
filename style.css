@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(5, 5, 42);
+    color: aliceblue;
+}
+header{
+    background-color: black;
+    color: antiquewhite;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+ul:first-child{
+    list-style: none;
+}
+
+.li:hover{
+    text-decoration: none;
+    cursor:pointer
+    ;
+    color: blueviolet;
+}
+.navbar{
+    font-size: 2em;
+    
+    position: sticky;
+}
+.img{
+    border-radius: 30px;
+}
+.p{
+    padding-top: 3em;
+    padding-left: 2em;
+    font-size: 2em;
+}
+.ll{
+    font-size: 2em;
+color: blueviolet;
+    font-weight: bolder;
+}
+.section{
+   background-image: url("https://bernardmarr.com/wp-content/uploads/2021/08/The-Future-of-Quantum-Computing.jpg");
+background-size: cover;
+background-repeat:no-repeat ;
+background-position: center;
+background-attachment: fixed;
+
+height:80vh;
+
+}
+
+
+.aboutus{
+    text-align: center;
+    font-size: 2em;
+}
+#element{
+    color: blueviolet;
+}
+.pp{
+    display: flex;
+    justify-content: center;
+   
+    font-size: 1.35em;
+}
+.gola{
+    border-radius: 20px;
+}
+.load{
+    display: grid;
+    grid-template-columns: repeat(2,50vw);
+}
+.nn{
+    background-color: rgba(30, 30, 103, 0.759);
+    margin-top: 1em;
+}
+.e{
+    margin-top: 2em;
+    padding-left: 6vw;
+    display: grid;
+    grid-template-columns: repeat(3 , 26vw);
+    column-gap: 6vw;
+    grid-template-rows: repeat(2,30vh);
+    row-gap: 5vh;
+}
+.div{
+    background-color: blueviolet;
+    border-radius: 1em;
+    padding: 1em;
+    }
+
+.m{
+    font-size: 2em;
+    text-align: center;
+    color: aliceblue;
+}
+.div:hover{
+background-color: rgb(16, 16, 71);
+padding: 0.8em;
+}
+
+.r{
+    color: white;
+}
+footer{
+    height: max-content;
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+}
+.left{
+    font-size: 2em;
+    padding: 2em;
+}
+.right{
+    font-size: 1.5em;
+    padding: 2em;
+    display: flex;
+   flex-direction: column;
+   align-items: flex-start;
+   row-gap: 3em;
+}
+.d{
+    font-size: 0.7em;
+}
